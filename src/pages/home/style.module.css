@@ -1,0 +1,56 @@
+.todoFormBody{
+    max-width: 448px;
+    margin: 0 auto;
+}
+.todoHeadTitle{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #e73f33;
+    cursor: pointer;
+}
+.todoTitle{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #e73f33;
+    cursor: pointer; 
+}
+.todoForm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.todoInput{
+    width: 270px;
+    border: 1px solid #e73f33;
+    padding: 16px 20px;
+    border-radius: 4px;
+    color: #e73f33;
+    outline: none;
+    &&::placeholder{
+        color: #e73f33;
+    }
+    &&:focus-visible{
+        border-color: #e73f33;
+        outline: none;
+    }
+}
+
+.todoButton{
+    background-color: #e73f33;
+    border: 0;
+    padding: 16px 26px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.todoFormHead{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}

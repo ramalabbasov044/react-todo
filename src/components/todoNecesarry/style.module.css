@@ -1,0 +1,12 @@
+.itemActive{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e73f33;
+    padding: 7px 20px;
+    border-radius: 4px;
+    color: #e73f33;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
